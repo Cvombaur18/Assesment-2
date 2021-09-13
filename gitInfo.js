@@ -38,6 +38,12 @@ gitHubDefinition = 'Github is a place for devolpers to share software'
 */
 
 //CODE HERE
+const init = {
+    description:'creates a new Git repository', 
+    code:'git init'}
+{
+    console.log(init)
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -46,7 +52,12 @@ gitHubDefinition = 'Github is a place for devolpers to share software'
 */
 
 //CODE HERE
-
+const clone = {
+    description:'Downloading a copy from the source code', 
+    code:'clone'}
+{
+    console.log(clone)
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -54,7 +65,12 @@ gitHubDefinition = 'Github is a place for devolpers to share software'
 */
 
 //CODE HERE
-
+const status = {
+    description:'Checks the status and reports that there is nothing to commit', 
+    code:'git status'}
+{
+    console.log(status)
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -62,7 +78,12 @@ gitHubDefinition = 'Github is a place for devolpers to share software'
 */
 
 //CODE HERE
-
+const add = {
+    description:'adds a repository', 
+    code:'git add'}
+{
+    console.log(add)
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -70,8 +91,12 @@ gitHubDefinition = 'Github is a place for devolpers to share software'
 */
 
 //CODE HERE
-
-
+const commit = {
+    description:'sends the latest changes of the source code to the repository', 
+    code:'git commit'}
+{
+    console.log(commit)
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -79,3 +104,9 @@ gitHubDefinition = 'Github is a place for devolpers to share software'
 */
 
 //CODE HERE
+const push = {
+    description:'how you transfer commits from your local repository to a remote repository', 
+    code:'git commit -m file name'}
+{
+    console.log(push)
+}

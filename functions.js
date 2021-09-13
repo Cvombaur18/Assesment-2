@@ -19,11 +19,14 @@ sum(10, 27)
 */
 
 //CODE HERE
-function greaterThanFive(number){
-  
+function isGreaterThan5(number) {
 
+  if (number > 5 ) {
+   console.log("True");}
+   else console.log("False")
 }
-  
+  isGreaterThan5(10)
+  isGreaterThan5(5)
 //////////////////PROBLEM 3////////////////////
 /*
   Create a function called 'findZWords' that takes in one parameter, 'word'. 
@@ -34,12 +37,14 @@ function greaterThanFive(number){
 
 //CODE HERE
 function findZWords(word){
-  console.log(word)
-
-    word('zebra')
-    word('apple')
-
+  if (word.startsWith('Z')){
+    console.log('the name begins with Z')
+  }else{console.log('the name does not begin with Z')
 }
+    
+  }
+  word = "Zebra"
+  word = "Apple"
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -48,3 +53,8 @@ function findZWords(word){
 */
 
 //CODE HERE
+function ilove(name, love){
+  console.log(name, 'loves', love)
+}
+
+ilove('Joseph','music')

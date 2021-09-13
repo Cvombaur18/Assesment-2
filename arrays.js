@@ -40,8 +40,9 @@ console.log(middleNums)
 */
 
 // CODE HERE
-function bigOrSmall(){
-  var answers = []
-
+function bigOrSmall(arr){
+  var answers = [85, 105]
+  for (let i = 0; i < answers.length; i++){
+    answers[i]
+  }
 }
-

@@ -56,11 +56,13 @@ console.log(`${me.greeter} My name is ${me.firstName} and i live in ${me.state}`
 
 //CODE HERE
 class CarFactory{
-  constructor(make, model, year){
+  constructor (make, model, year){
     this.make = make;
     this.model = model;
     this.year = year;
-  }
+      
+  } 
 
-
+  
 }
+let carFactory = new CarFactory ('toyota', 'camry', 2019)
